@@ -1,0 +1,9 @@
+// Obter o elemento `jsp:include`
+var jspInclude = document.querySelector(".jsp-include");
+
+// Fixar o `jsp:include` à direita da tela
+jspInclude.style.position = "fixed";
+jspInclude.style.right = "0px";
+jspInclude.style.top = "0px";
+jspInclude.style.bottom = "0px";
+jspInclude.style.width = "200px";

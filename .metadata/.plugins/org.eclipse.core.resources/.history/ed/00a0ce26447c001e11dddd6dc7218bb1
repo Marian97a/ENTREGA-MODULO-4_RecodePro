@@ -1,0 +1,29 @@
+package connection;
+
+import java.sql.Connection;
+
+public class ConnectionMySQL {
+	private static String url = "jdbc:mysql://localhost:3306/MVTur_Viagem";
+	private static String username = "root";
+	private static String password = "Ma@05091997";
+	
+	private static Connection conn;
+	public static Connection getConnectionMySQL() {
+		
+		try {
+			if (conn == null) {
+				conn = DriveManager,getConnection(url, username, password);
+				return conn;
+				
+			}else {
+				return conn;
+			}
+		} catch (SQLException e) {
+			e.printStacktrace();
+		}
+	}
+	private static void getConnection(String url2, String username2, String password2) {
+		// TODO Auto-generated method stub
+		
+	}
+}

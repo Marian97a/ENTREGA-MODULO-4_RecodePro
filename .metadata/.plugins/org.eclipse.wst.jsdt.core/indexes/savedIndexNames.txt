@@ -1,0 +1,8 @@
+INDEX VERSION 1.4+C:\Users\mariana\Desktop\ENTREGA MOD_4\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+2355971964.index
+2164237799.index
+3829636096.index
+1769085118.index
+1441990575.index
+2634307305.index
+703399434.index

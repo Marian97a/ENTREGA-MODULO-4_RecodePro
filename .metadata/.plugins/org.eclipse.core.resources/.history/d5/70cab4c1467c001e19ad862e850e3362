@@ -1,0 +1,28 @@
+package connection;
+
+import java.sql.Connection;
+import java.sql.SQLException;
+
+import com.mysql.jdbc.Driver;
+
+public class ConnectionMySQL {
+	private static String url = "jdbc:mysql://localhost:3306/MVTur_Viagem";
+	private static String username = "root";
+	private static String password = "Ma@05091997";
+	
+	private static Connection conn;
+	public static Connection getConnectionMySQL() {
+		
+		try {
+			if (conn == null) {
+				conn = Driver.getConnection(url, username, password);
+				return conn;
+				
+			}else {
+				return conn;
+			}
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+	}
+}
